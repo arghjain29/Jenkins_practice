@@ -1,4 +1,4 @@
-# Jenkis_practice
+# Jenkins_practice
 
 This repository is for practicing and learning Jenkins with simple, beginner-friendly examples.
 
