@@ -8,7 +8,7 @@ Create a basic job that runs only when you click **Build Now** and prints:
 `Hello world from Jenkins`
 
 ## Steps
-1. Open Jenkins dashboard.
+1. Open Jenkins dashboard at `http://localhost:8080`.
 2. Click **New Item**.
 3. Enter job name: `my-first-job`.
 4. Select **Freestyle project** and click **OK**.
