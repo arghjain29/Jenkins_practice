@@ -29,7 +29,7 @@ This means the job runs every minute.
 ```batch
 echo Cleaning up build Folder
 
-del /q D:\Codes\Jenkins_practice\cleanup_job\sample_app\builds\*.log
+del /q D:\Codes\Jenkins_practice\Cleanup_job\sample_app\builds\*.log
 
 echo Cleanup Completed
 ```
