@@ -5,7 +5,7 @@ This Jenkins job is scheduled to run every minute and removes old build log file
 ## Goal
 Clean up the build logs in:
 
-`D:\Codes\Jenkins_practice\sample_app\builds`
+`(Working Dir)\sample_app\builds`
 
 and print progress messages in the Jenkins console output.
 
@@ -29,7 +29,7 @@ This means the job runs every minute.
 ```batch
 echo Cleaning up build Folder
 
-del /q D:\Codes\Jenkins_practice\sample_app\builds\*.log
+del /q D:\Codes\Jenkins_practice\cleanup_job\sample_app\builds\*.log
 
 echo Cleanup Completed
 ```
