@@ -1,6 +1,6 @@
 # Jenkins_practice
 
-This repository contains beginner-friendly Jenkins practice examples. It includes basic freestyle jobs, GitHub webhook automation, and both Declarative and Scripted pipeline examples.
+This repository contains beginner-friendly Jenkins practice examples and steps. It includes basic freestyle jobs, GitHub webhook automation, and both Declarative and Scripted pipeline examples and many more to come.
 
 ## Repository Structure
 - [My_first_job/](./My_first_job/): Contains the basic manual-trigger Jenkins job notes.
