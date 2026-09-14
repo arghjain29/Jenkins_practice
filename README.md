@@ -8,6 +8,7 @@ This repository contains beginner-friendly Jenkins practice examples and steps. 
 - [Cleanup_job/](./Cleanup_job/): Contains the scheduled cleanup job notes and the sample app build folder.
 - [Declarative vs Scripted Pipelines/](./Declarative%20vs%20Scripted%20Pipelines/): Contains notes and examples for both Jenkins pipeline styles.
 - [Full_CI_CD_Pipeline/](./Full_CI_CD_Pipeline/): Contains the React app pipeline setup for Jenkins and Vercel deployment.
+- [Jenkins_setup_EC2/](./Jenkins_setup_EC2/): Contains the EC2 setup guide for installing Jenkins on an Ubuntu instance with Java 21 and opening port 8080.
 
 ## Learning Notes
 - [My_first_job/my_first_job.md](./My_first_job/my_first_job.md): A very basic first Jenkins job on `http://localhost:8080` that is triggered manually and prints `Hello world from Jenkins` with no extra settings enabled.
@@ -16,3 +17,4 @@ This repository contains beginner-friendly Jenkins practice examples and steps. 
 - [Declarative vs Scripted Pipelines/declarative_job.md](./Declarative%20vs%20Scripted%20Pipelines/declarative_job.md): A simple Declarative Pipeline example with `Build`, `Test`, and `Deploy` stages.
 - [Declarative vs Scripted Pipelines/scripted_job.md](./Declarative%20vs%20Scripted%20Pipelines/scripted_job.md): A Scripted Pipeline example that demonstrates the same stages with Groovy-based syntax.
 - [Full_CI_CD_Pipeline/reactjs-pipeline.md](./Full_CI_CD_Pipeline/reactjs-pipeline.md): A full GitHub push-to-deploy flow where GitHub sends a webhook to Jenkins through ngrok, Jenkins runs the repository Jenkinsfile, and the app is deployed to Vercel using a Jenkins credential.
+- [Jenkins_setup_EC2/jenkins_setup_ec2.md](./Jenkins_setup_EC2/jenkins_setup_ec2.md): A step-by-step guide to installing Jenkins on an EC2 Ubuntu instance using `openjdk-21-jdk`, enabling the Jenkins service, and opening port `8080` in the EC2 security group.
