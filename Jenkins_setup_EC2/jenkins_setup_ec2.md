@@ -2,16 +2,44 @@
 
 This guide shows how to install Jenkins on an EC2 Ubuntu instance using Java 21 and make it accessible through port 8080.
 
+## Launch EC2 with Ubuntu AMI
+
+1. Go to the AWS EC2 dashboard.
+2. Click **Launch instance**.
+3. Choose an Ubuntu AMI, such as **Ubuntu Server 22.04 LTS** or **24.04 LTS**.
+4. Select an instance type, for example `t2.micro` or another small free-tier-eligible option.
+5. Create or select a key pair for SSH access.
+6. Configure the security group to allow SSH on port `22` and Jenkins on port `8080`.
+7. Launch the instance and connect via SSH.
+
 ## Goal
-Set up Jenkins on an AWS EC2 server so it runs successfully and can be opened in the browser at:
+Set up Jenkins on an AWS EC2 server using an Ubuntu AMI so it runs successfully and can be opened in the browser at:
 
 `http://<EC2_PUBLIC_IP>:8080`
 
+## Connect to the EC2 instance
+
+Once the instance is running, connect to it using SSH from your terminal.
+
+```bash
+ssh -i <your-private-key.pem> ubuntu@<EC2_PUBLIC_IP>
+```
+
+Example:
+
+```bash
+ssh -i my-key.pem ubuntu@54.123.45.67
+```
+
+This connects to your Ubuntu EC2 instance as the default `ubuntu` user.
+
 ## Prerequisites
-- An Ubuntu EC2 instance
+- An Ubuntu EC2 instance running an Ubuntu AMI
 - SSH access to the instance
 - Security group with port 22 enabled for SSH
 - Java 21 installed
+
+This guide assumes you are using an Ubuntu-based Amazon Machine Image (AMI), such as Ubuntu Server 22.04 or 24.04, on EC2.
 
 ## Steps
 
